@@ -4,7 +4,7 @@ import plotly
 import pandas as pd
 import numpy as np
 
-from nltk.stem import WordNetLemmatizer
+#from nltk.stem import WordNetLemmatizer
 #from nltk.tokenize import word_tokenize
 
 from flask import Flask
@@ -144,7 +144,8 @@ def go():
 
 
 def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+    #app.run(host='0.0.0.0', port=3001, debug=True)
+    app.run_server(debug=True)
 
 
 if __name__ == '__main__':
