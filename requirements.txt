@@ -5,3 +5,6 @@ nltk
 sqlalchemy
 flask
 sklearn
+wordnet
+pros_cons
+reuters
