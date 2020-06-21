@@ -1,7 +1,6 @@
 pandas
 numpy
 plotly
-nltk
 sqlalchemy
 flask
 sklearn
